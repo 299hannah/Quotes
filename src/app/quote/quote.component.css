@@ -1,4 +1,14 @@
 *{
     font-size: 15px;
-  
+    font-weight: 600;
+    
+}
+#image-section{
+    background-image: url("./../../assets/images/quote.jpg");
+    background-size: cover;
+    color: cornsilk;
+   
+}
+#image-section, h6{
+    margin-top: 30px;    
 }
