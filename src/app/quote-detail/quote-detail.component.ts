@@ -15,6 +15,9 @@ export class QuoteDetailComponent implements OnInit {
   deleteQuote(complete:boolean){
     this.isComplete.emit(complete);
   }
+  upvote(){
+    this.quote.likes+=1;
+  }
   downvote(){
     this.quote.dislikes+=1;
   }
