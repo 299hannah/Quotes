@@ -6,17 +6,13 @@
   <div class="row">
     <div class="col-md-6" id="image-section">
 
-      <!-- <div *ngIf="quotes.length"> -->
       <div *ngFor='let quote of quotes;let i = index'>
         <div>
           <h6>{{quote.author}} published on {{quote.publishedDate|date}}</h6>
           <p>{{quote.description}}</p>
           
         </div>
-        <!-- <div > -->
-          <!-- <app-quote-detail [quote]='quote' (isComplete)='dislikeQuote'></app-quote-detail> -->
-       <!-- </div> -->
-   
+           
     <div >
       <app-quote-detail [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-detail>
    </div>
@@ -27,5 +23,4 @@
       
     </div>
   </div>
-  <!-- </div> -->
 </div>
