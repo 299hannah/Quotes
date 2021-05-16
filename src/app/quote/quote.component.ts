@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
   
   quotes: Quote[] = [
 
-  new Quote(1, 'Shantel', '', 'Writing is a way of talking withought being interrupted',new Date(2020, 4,14)),
+  new Quote(1, 'Shantel', 'Within You', 'Writing is a way of talking withought being interrupted',new Date(2020, 4,14)),
   new Quote(2,'Moses','', 'Coding is Designing',new Date(2019, 6,9)),
 ];
 
