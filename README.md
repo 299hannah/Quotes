@@ -22,15 +22,15 @@ This will clone the repositoty into your local folder
 
 ### Technologies Used
 
- HTML
- CSS
- Javascript
- Git
- Angular
+ 1. HTML
+ 2. CSS
+ 3. Javascript,
+ 4. Git,
+ 5. Angular.
 
 ## Live Site
 
-View [live](/)
+View [live](https://299hannah.github.io/Quotes/)
 
 ## Licence
 
